@@ -54,6 +54,7 @@ func main() {
 		log.Println("server starting on :8080")
 		if err := server.ListenAndServe(); err != nil && err != http.ErrServerClosed {
 			log.Fatalf("server error: %v", err)
+			os.Exit(1)
 		}
 	}()
 
@@ -66,7 +67,7 @@ func main() {
 	defer shutdownCancel()
 
 	if err := server.Shutdown(shutdownCtx); err != nil {
-		log.Printf("server shutdown error: %v", err)
+		log.Fatalf("server shutdown error: %v", err)
 	} else {
 		log.Println("server shut down cleanly")
 	}

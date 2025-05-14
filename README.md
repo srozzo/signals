@@ -93,7 +93,7 @@ func main() {
 	defer shutdownCancel()
 
 	if err := server.Shutdown(shutdownCtx); err != nil {
-		log.Printf("server shutdown error: %v", err)
+		log.Fatalf("server shutdown error: %v", err)
 	} else {
 		log.Println("server shut down cleanly")
 	}
