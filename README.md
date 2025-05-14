@@ -124,20 +124,12 @@ The signals package includes full test coverage for:
 | `SetDebug(bool)`                 | Enables or disables internal debug logging.                 |
 | `SetLogger(func(format, ...any))`| Sets a custom logger (e.g., `log.Printf`, `logrus.Infof`).  |
 
-## 📘 Use Cases
-
-- Graceful shutdown in CLI tools or HTTP servers
-- Hot reloading configuration using `SIGHUP`
-- Diagnostic hooks with `SIGQUIT` or custom signals
-- Clean signal handling in Docker or Kubernetes environments
-- Centralized signal coordination in multi-service apps
-
 ## 🧱 Contributing
 
 Contributions are welcome! Please:
 
 - Open issues for bugs, ideas, or feature requests
-- Submit pull requests with tests and clean commits
+- Submit pull requests with tests and clean commits (Use the make 'all' target)
 - Follow idiomatic Go and avoid unnecessary dependencies
 
 If you're unsure about anything, open a draft PR or start a discussion.
