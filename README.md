@@ -1,6 +1,10 @@
 # signals
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Go Test](https://github.com/srozzo/signals/actions/workflows/test.yml/badge.svg)
+![Coverage](https://img.shields.io/badge/coverage-92.1%25-brightgreen)
+[![Go Report Card](https://goreportcard.com/badge/github.com/srozzo/signals)](https://goreportcard.com/report/github.com/srozzo/signals)
+
 
 A lightweight, thread-safe Unix signal handling module for Go. Designed for clean shutdowns, reloadable config patterns, and diagnostic triggers (e.g., `SIGINT`, `SIGHUP`, `SIGQUIT`) — all with clean abstractions and safe concurrency.
 
