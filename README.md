@@ -12,10 +12,8 @@ A lightweight, thread-safe Unix signal handling module for Go. Designed for clea
 ## ✨ Features
 
 - Register multiple handlers per signal
-- Singleton-safe with `sync.Once` and `sync.RWMutex`
 - Caller-controlled context cancellation (flexible lifecycle)
 - Debug-friendly with optional structured logging
-- Great for CLI apps, long-lived processes, and containers
 
 ## 📦 Install
 
