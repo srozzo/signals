@@ -129,7 +129,7 @@ The signals package includes full test coverage for:
 Contributions are welcome! Please:
 
 - Open issues for bugs, ideas, or feature requests
-- Submit pull requests with tests and clean commits (Use the make 'all' target)
+- Submit pull requests with tests and clean commits
 - Follow idiomatic Go and avoid unnecessary dependencies
 
 If you're unsure about anything, open a draft PR or start a discussion.
