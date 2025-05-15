@@ -1,9 +1,9 @@
 # signals
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Go Test](https://github.com/srozzo/signals/actions/workflows/test.yml/badge.svg)
+![GitHub License](https://img.shields.io/github/license/srozzo/signals?style=flat&link=https%3A%2F%2Fraw.githubusercontent.com%2Fsrozzo%2Fsignals%2Frefs%2Fheads%2Fmain%2FLICENSE)
+![Go Test](https://img.shields.io/github/actions/workflow/status/srozzo/signals/test.yml?branch=main)
 ![Coverage](https://img.shields.io/badge/coverage-92.1%25-brightgreen)
-[![Go Report Card](https://img.shields.io/badge/go%20report-A%2B-brightgreen?logo=go)](https://goreportcard.com/report/github.com/srozzo/signals)
+![Go Report Card](https://img.shields.io/badge/go%20report-A%2B-brightgreen?logo=go)(https://goreportcard.com/report/github.com/srozzo/signals)
 
 
 
